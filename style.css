@@ -1,4 +1,7 @@
-body{font-family: 'Noto Serif', serif;}
+body{font-family: 'Noto Serif', serif;
+    margin: 0;
+
+}
 
 .yellow{color: rgb(170, 170, 12);}
 
@@ -44,5 +47,30 @@ section{display: flex;
 }
 .middle-bg{background-image: url(images/mid-border.jpg);
     background-repeat: no-repeat;
+}
+h2{font-size: 30px;}
+.center{ color:grey;
+    text-align: center;
+}
+
+.box{width:33%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right:2% ;
+    box-shadow: 5px 5px 5px 5px gray;
+
+}
+
+.box img{width:100%;}
+
+.foot{text-align: center;
+    background-color: darkcyan;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
 
 }
