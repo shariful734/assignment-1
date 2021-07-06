@@ -48,13 +48,14 @@ section{display: flex;
     margin-top: 10%;
 }
 
-.middle-bg{background-image: url(images/mid-border.jpg);
+.middle-bg{background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
 
 h2{font-size: 30px;}
 .center{ color:grey;
-    text-align: center;}
+    text-align: center;
+}
 
 .box{width:33%;
     padding-left: 2%;
