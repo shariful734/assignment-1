@@ -36,6 +36,8 @@ section{display: flex;
 
 .second-person{ width:70% ;}
 
+.about-me{color: gray;}
+
 .link-2{display: inline-block;
     text-decoration: none;
     color: rgb(245, 43, 8);
@@ -45,13 +47,14 @@ section{display: flex;
     border-radius: 5px;
     margin-top: 10%;
 }
+
 .middle-bg{background-image: url(images/mid-border.jpg);
     background-repeat: no-repeat;
 }
+
 h2{font-size: 30px;}
 .center{ color:grey;
-    text-align: center;
-}
+    text-align: center;}
 
 .box{width:33%;
     padding-left: 2%;
@@ -62,15 +65,27 @@ h2{font-size: 30px;}
     margin-left: 2%;
     margin-right:2% ;
     box-shadow: 5px 5px 5px 5px gray;
-
 }
 
 .box img{width:100%;}
+
+.center-orange{ text-align: center;
+    color: orange;    
+}
+
+.sign-up{ width: 30%;
+     box-shadow: 10px 10px 10px 10px gray;
+     margin-left: 30%;
+     margin-bottom: 10%;
+     padding-left: 100px;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     }
+
+     button{padding:10px 20px}
 
 .foot{text-align: center;
     background-color: darkcyan;
     padding-bottom: 30px;
     padding-top: 20px;
-    
-
 }
